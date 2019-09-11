@@ -1,3 +1,3 @@
 Shell Basics 0
 
-Where am I?
+Here, there will be several scripts which run basic shell commands.
