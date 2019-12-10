@@ -1,5 +1,4 @@
-<h1>Repository Description</h1>
+# System Engineering Devops
 
-Shell
+**Repository for Studying Shell/Terminal Management and Operations on Linux OS**
 
-In this repository there will be several projects regarding shell basics, management, and use.
