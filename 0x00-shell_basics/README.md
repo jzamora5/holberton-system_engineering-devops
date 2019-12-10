@@ -77,7 +77,7 @@ What you should learn from this project:
 * Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
 ### [19. File type: Holberton](./holberton.mgc)
-*
+* Create a magic file holberton.mgc that can be used with the command file to detect Holberton data files. Holberton data files always contain the string HOLBERTON at offset 0.
 
 ---
 
