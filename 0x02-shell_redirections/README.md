@@ -77,7 +77,7 @@ What you should learn from this project:
 ### [21. esreveR](./21-reverse)
 * Write a script that reverse its input.
 
-### [22. DJ Cut Killer](./Write a script that displays all users and their home directories, sorted by users.)
+### [22. DJ Cut Killer](./22-users_and_homes)
 * Write a script that displays all users and their home directories, sorted by users.
 
 ### [23. Empty casks make the most noise](./100-empty_casks)
