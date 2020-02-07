@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for i in *
+do
+    echo "$i" | rev | cut -d"-" -f 1 | rev
+done
