@@ -13,7 +13,7 @@ What you should learn from this project:
 ---
 
 ### [0. Create a SSH RSA key pair](./0-RSA_public_key.pub)
-* Read for this task:
+* Generate a SSH Key
 
 
 ### [1. For Holberton School loop](./1-for_holberton_school)
