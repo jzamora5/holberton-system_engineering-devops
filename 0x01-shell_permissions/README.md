@@ -1,4 +1,4 @@
-# 0x01. Shell, permissions
+# 0x00. Shell, permissions
 
 ## Description
 What you should learn from this project:
@@ -17,7 +17,7 @@ What you should learn from this project:
 * Create a script that changes your user ID to betty.
 
 ### [1. Who am I ](./1-who_am_i)
-* Display the contents list of your current directory.
+* Write a script that prints the effective userid of the current user.
 
 ### [2. Groups](./2-groups)
 * Write a script that prints all the groups the current user is part of.
