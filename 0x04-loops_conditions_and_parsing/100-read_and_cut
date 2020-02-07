@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Read and cut
 fname="/etc/passwd"
 while IFS= read -r line
 do

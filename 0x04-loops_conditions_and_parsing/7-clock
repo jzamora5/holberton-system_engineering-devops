@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Whilt to print clock time
 i=0
 while [ $i -le 12 ]
 do

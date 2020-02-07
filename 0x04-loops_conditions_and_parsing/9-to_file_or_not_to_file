@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# File test operators
 fname="holbertonschool"
 if [ -e $fname ]
 then
