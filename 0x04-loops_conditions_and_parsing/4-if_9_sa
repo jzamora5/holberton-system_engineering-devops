@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+i=1
+while [ $i -le 10 ]
+do
+    if [ $i -ne 9 ]
+    then
+	echo "Holberton School"
+    else
+	echo -e "Holberton School\nHi"
+    fi
+    i=$((i + 1))
+done
