@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Kill process that traps sigtrap
+pgrep -f 7-highlander | xargs kill -9
