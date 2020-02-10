@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Displays a message indifinitely and catches a SIGTERM
+trap sigtrap 15
+sigtrap()
+{
+    echo "I am invincible!!!"
+}
+while ((1))
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
