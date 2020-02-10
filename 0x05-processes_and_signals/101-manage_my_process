@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+startme()
+{
+    ./manage_my_process &
+    echo "$!" > /var/run/my_process.pid
+}
+stopme()
+{
+    sudo kill -15 "$(cat /var/run/my_process.pid)"
+    rm -f /var/run/my_process.pid
+}
+case "$1" in
+    start) startme
+	   echo "manage_my_process started"
+	   ;;
+    stop) stopme
+	  echo "manage_my_process stopped"
+	  ;;
+    restart) stopme
+	     startme
+             echo "manage_my_process restarted"
+	     ;;
+    *) echo "Usage: manage_my_process {start|stop|restart}"
+       ;;
+esac
+exit 0
