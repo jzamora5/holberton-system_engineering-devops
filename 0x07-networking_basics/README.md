@@ -14,23 +14,23 @@ What you should learn from this project:
 
 
 ### [1. Types of network](./1-types_of_network)
-* 
+* Types of Network Questions 
 
 
 ### [2. MAC and IP address](./2-MAC_and_IP_address)
-* 
+* Mac and IP Address Questions
 
 
 ### [3. UDP and TCP](./3-UDP_and_TCP)
-* 
+* UPD and TCP questions
 
 
 ### [4. TCP and UDP ports](./4-TCP_and_UDP_ports)
-* Once packets have been sent to the right network device using IP using either UDP or TCP as a mode of transportation, it needs to actually enter the network device.
+* Bash script that displays listening sockets
 
 
 ### [5. Is the host on the network](./5-is_the_host_on_the_network)
-* 
+* Bash script that pings 5 times to a page passed as command line arg
 
 ---
 
