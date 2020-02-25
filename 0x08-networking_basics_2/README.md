@@ -19,7 +19,7 @@ What you should learn from this project:
 
 
 ### [2. Change your home IP](./2-change_your_home_IP)
-* Write a Bash script that configures an Ubuntu server with the below requirements.
+* Write a Bash script that configures an Ubuntu server. 
 
 
 ### [3. Show attached IPs](./3-show_attached_IPs)
