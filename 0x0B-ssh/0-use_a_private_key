@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # Script that uses SSH to connect to remote server
-ssh -i ~/.ssh/holberton ubuntu@35.237.235.204
+ssh -i ~/.ssh/holberton ubuntu@34.73.70.32
