@@ -11,19 +11,19 @@ What you should learn from this project:
 ---
 
 ### [0. Transfer a file to your server](./0-transfer_file)
-* Write a Bash script that transfers a file from our client to a server:
+* Write a Bash script that transfers a file from a client to a server:
 
 
 ### [1. Install nginx web server](./1-install_nginx_web_server)
-* 
+* Install nginx web server (be ware of firewall rules)
 
 
 ### [2. Setup a domain name](./2-setup_a_domain_name)
-* .TECH Domains is one of the top domain providers. They are known for the stability and quality of their DNS hosting solution. Holberton School partnered with .TECH Domains so that you can learn about DNS.
+* Setup a domain name and make its root print Holberton School
 
 
 ### [3. Redirection](./3-redirection)
-* Readme:
+* Make /redirect_me be redirected with code 301
 
 
 ### [4. Not found page 404](./4-not_found_page_404)
@@ -31,11 +31,11 @@ What you should learn from this project:
 
 
 ### [5. Design a beautiful 404 page](./5-design_a_beautiful_404_page)
-* Some of my favorites:
+* URL of custom made 404 page
 
 
 ### [6. Install Nginx web server (w/ Puppet)](./7-puppet_install_nginx_web_server.pp)
-* Time to practice configuring your server with Puppet! Just as you did before, we’d like you to install and configure an Nginx server using Puppet instead of Bash. To save time and effort, you should also include resources in your manifest to perform a 301 redirect when querying /redirect_me.
+* Configure an NGINX server with Puppet
 
 ---
 
