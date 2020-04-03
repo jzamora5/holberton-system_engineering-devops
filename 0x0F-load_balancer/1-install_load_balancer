@@ -9,7 +9,6 @@ CONF="\
 frontend main
 	bind *:80
 	mode http
-	option http-keep-alive
 	default_backend web-server
 
 backend web-server
@@ -19,4 +18,5 @@ backend web-server
 "
 
 echo "$CONF" >> /etc/haproxy/haproxy.cfg
+echo "ENABLED=1" >> /etc/default/haproxy
 service haproxy start
