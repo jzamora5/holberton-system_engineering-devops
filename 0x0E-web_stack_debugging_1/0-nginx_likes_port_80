@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Web Stack Debugging 1
 sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
-pkill -f nginx
 service nginx restart
