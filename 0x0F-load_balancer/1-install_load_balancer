@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 # Installs HAproxy and configures it
-apt-get install -y software-properties-common
-add-apt-repository -y ppa:vbernat/haproxy-2.0
 apt-get update -y
-apt-get install -y haproxy=2.0.\*
+apt-get install -y haproxy
 
 CONF="\
 frontend main
