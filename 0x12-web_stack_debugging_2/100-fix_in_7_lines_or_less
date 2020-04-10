@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Web Debug 2 Advanced
-sudo sed -i "s/80/8080/" /etc/nginx/sites-enabled/default
+sudo sed -i "s/80/8080/" /etc/nginx/sites-available/default
 sudo chmod 204 /etc/nginx/nginx.conf
 sudo sed -i '1iuser nginx;' /etc/nginx/nginx.conf
-sudo pkill -9 -f apache2
+sudo pkill -f apache2
 sudo -u nginx service nginx start
