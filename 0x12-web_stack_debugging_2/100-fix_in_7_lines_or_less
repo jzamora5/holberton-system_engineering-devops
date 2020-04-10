@@ -3,5 +3,5 @@
 chmod 777 /etc/nginx/nginx.conf
 sed -i "s/80/8080/" /etc/nginx/sites-available/default
 sed -i '1iuser nginx;' /etc/nginx/nginx.conf
-pkill -f apache2
+pkill apache2
 sudo -u nginx service nginx start
