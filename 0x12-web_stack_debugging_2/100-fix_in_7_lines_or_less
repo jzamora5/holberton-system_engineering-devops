@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Web Debugging 2
+# Web Debug 2 Advanced
 sed -i "s/80/8080/" /etc/nginx/sites-enabled/default
 chmod 204 /etc/nginx/nginx.conf
 sed -i '1iuser nginx;' /etc/nginx/nginx.conf
