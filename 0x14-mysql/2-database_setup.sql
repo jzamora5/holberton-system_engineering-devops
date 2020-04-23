@@ -10,7 +10,6 @@ CREATE TABLE IF NOT EXISTS nexus6 (
 );
 
 INSERT INTO nexus6 (name)
-
 VALUES ("Leon");
 
 GRANT SELECT ON tyrell_corp.* TO 'holberton_user'@'localhost';
