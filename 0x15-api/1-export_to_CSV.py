@@ -2,9 +2,9 @@
 """ Export to CSV  """
 
 if __name__ == "__main__":
+    import csv
     from requests import get
     from sys import argv, exit
-    import csv
 
     try:
         id = argv[1]

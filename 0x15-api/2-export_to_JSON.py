@@ -2,9 +2,9 @@
 """ Export to JSON  """
 
 if __name__ == "__main__":
+    import json
     from requests import get
     from sys import argv, exit
-    import json
 
     try:
         id = argv[1]

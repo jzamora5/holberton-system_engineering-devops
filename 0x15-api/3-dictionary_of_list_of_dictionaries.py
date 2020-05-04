@@ -2,8 +2,8 @@
 """ Dictionary of list of dictionaries  """
 
 if __name__ == "__main__":
-    from requests import get
     import json
+    from requests import get
 
     url_user = "https://jsonplaceholder.typicode.com/users"
     url_todo = "https://jsonplaceholder.typicode.com/todos"
