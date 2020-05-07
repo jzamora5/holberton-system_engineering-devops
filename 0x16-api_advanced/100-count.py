@@ -6,25 +6,22 @@ REDDIT = "https://www.reddit.com/"
 HEADERS = {'user-agent': 'my-app/0.0.1'}
 
 
-def count_words(subreddit, word_list, after=""):
+def count_words(subreddit, word_list, after="", word_dic={}):
     """
     Returns a list containing the titles of all hot articles for a
     given subreddit. If no results are found for the given subreddit,
     the function should return None.
     """
-    if after == "":
-        word_list = [[w.lower(), 0] for w in word_list]
+    if not word_dic:
+        for word in word_list:
+            word_dic[word] = 0
 
     if after is None:
+        word_list = [[key, value] for key, value in word_dic.items()]
         word_list = sorted(word_list, key=lambda x: (-x[1], x[0]))
-        c = 0
         for w in word_list:
             if w[1]:
                 print("{}: {}".format(w[0], w[1]))
-            else:
-                c += 1
-        if c == len(word_list):
-            print("")
         return None
 
     url = REDDIT + "r/{}/hot/.json".format(subreddit)
@@ -56,8 +53,7 @@ def count_words(subreddit, word_list, after=""):
             lower = [s.lower() for s in title.split(' ')]
 
             for w in word_list:
-                count = lower.count(w[0])
-                w[1] += count
+                word_dic[w] += lower.count(w.lower())
 
     except:
         return None
