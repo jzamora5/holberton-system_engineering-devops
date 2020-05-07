@@ -20,6 +20,8 @@ def count_words(subreddit, word_list, after=""):
         for w in word_list:
             if w[1]:
                 print("{}: {}".format(w[0], w[1]))
+            else:
+                print()
         return None
 
     url = REDDIT + "r/{}/hot/.json".format(subreddit)
@@ -32,6 +34,7 @@ def count_words(subreddit, word_list, after=""):
     r = get(url, headers=HEADERS, params=params, allow_redirects=False)
 
     if r.status_code != 200:
+        print()
         return None
 
     try:
