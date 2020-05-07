@@ -37,7 +37,6 @@ def count_words(subreddit, word_list, after=""):
     r = get(url, headers=HEADERS, params=params, allow_redirects=False)
 
     if r.status_code != 200:
-        print("")
         return None
 
     try:
