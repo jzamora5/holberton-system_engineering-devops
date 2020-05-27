@@ -59,7 +59,7 @@ server {
         # Add index.php to the list if you are using PHP
         index index.html index.htm index.nginx-debian.html;
 
-        server_name _;
+        server_name 127.0.0.1 34.73.70.32;
         add_header X-Served-By $hostname;
         rewrite ^/redirect_me https:\/\/google.com permanent;
         error_page 404 /custom_404.html;
