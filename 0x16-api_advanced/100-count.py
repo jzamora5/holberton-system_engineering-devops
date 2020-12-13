@@ -21,7 +21,7 @@ def count_words(subreddit, word_list, after="", word_dic={}):
         word_list = sorted(word_list, key=lambda x: (-x[1], x[0]))
         for w in word_list:
             if w[1]:
-                print("{}: {}".format(w[0], w[1]))
+                print("{}: {}".format(w[0].lower(), w[1]))
         return None
 
     url = REDDIT + "r/{}/hot/.json".format(subreddit)
